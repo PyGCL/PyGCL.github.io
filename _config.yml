@@ -24,6 +24,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+include:
+  - _posts
+  - _pages
+  - _docs
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -31,7 +35,7 @@ exclude:
   - .gitignore
   - README.md
   - vendor
-timezone: Europe/Berlin
+timezone: Asia/Shanghai
 defaults:
 - scope:
     path: _posts
@@ -39,7 +43,10 @@ defaults:
   values:
     layout: post
     sectionid: blog
-
+- scope:
+    path: _pages
+  values:
+    layout: page
 - scope:
     path: _docs
     type: docs
