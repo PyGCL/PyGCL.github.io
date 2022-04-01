@@ -6,7 +6,7 @@ layout: page
 ---
 ## Core Dev Team
 
-{:timg: .img-fluid .img-thumbnail style="max-width: 150px;" }
+{:timg: .img-fluid .img-thumbnail style="max-width: 10em;" }
 
 
 {:class="table table-striped table-bordered table-hover"}
